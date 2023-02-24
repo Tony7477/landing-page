@@ -1,0 +1,123 @@
+body{
+    padding:0;
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin:0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+li {
+    padding:0;
+    margin:0;
+
+}
+.introduction{
+    padding-left: 50px;
+    padding-right:35px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    background-color: #1f2937;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    
+}
+
+.right-links ul{
+    display:flex;
+    gap:10px;
+
+}
+.websiteinto{
+    width:280px;
+    
+}
+.websiteinto .signup{
+    color:white;
+    background-color: rgb(17, 151, 204);
+   padding-left:15px ;
+   padding-top:6px ;
+   padding-right:15px ;
+   padding-bottom:6px ; 
+   border:1px;
+   border-radius: 3px;
+}
+.randominfo{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.cards{
+    display: flex;
+    gap:20px;
+}
+.card{
+    width: 130px;
+}
+.card .info{
+    text-align: center;
+}
+.box{
+    height:120px;
+    border: 2px solid rgb(17, 151, 204);
+    border-radius: 8px;
+}
+.websiteinto .head{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.placeholder img{
+    width:400px;
+    height:190px;
+    object-fit: cover;
+}
+.content{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.randominfo .head{
+    color:rgb(24, 24, 34);
+    font-weight: bold;
+    font-size: 36px;
+}
+.card .info{
+    color: rgb(102, 99, 99);
+}
+.quote{
+    padding:100px;
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.quote .quoteinfo {
+    color:#2a3038;
+    font-family: light italic;
+    font-size: 36px;
+
+
+}
+.quote .quoteby{
+    font-size: 16px;
+    align-self: flex-end;
+    color:#1f2937;
+    font-size: 20px;
+}
+
